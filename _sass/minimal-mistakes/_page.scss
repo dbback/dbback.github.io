@@ -6,8 +6,8 @@
   @include clearfix;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   max-width: 100%;
@@ -49,7 +49,7 @@ body {
 
   .page__inner-wrap {
     float: left;
-    margin-top: 1em;
+    margin-top: 0.75em;
     margin-left: 0;
     margin-right: 0;
     width: 100%;
@@ -71,11 +71,6 @@ body {
 .page__title {
   margin-top: 0;
   line-height: 1;
-
-  a {
-    color: $text-color;
-    text-decoration: none;
-  }
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -113,7 +108,7 @@ body {
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: 0.75em;
   }
 
   /* paragraph indents */
@@ -140,13 +135,13 @@ body {
   }
 
   dt {
-    margin-top: 1em;
+    margin-top: 0.75em;
     font-family: $sans-serif;
     font-weight: bold;
   }
 
   dd {
-    margin-left: 1em;
+    margin-left: 0.75em;
     font-family: $sans-serif;
     font-size: $type-size-6;
   }
@@ -189,8 +184,8 @@ body {
     }
 
     .wrapper {
-      padding-left: 1em;
-      padding-right: 1em;
+      padding-left: 0.75em;
+      padding-right: 0.75em;
 
       @include breakpoint($x-large) {
         max-width: $x-large;
@@ -256,7 +251,7 @@ body {
 
 .page__share {
   margin-top: 2em;
-  padding-top: 1em;
+  padding-top: 0.75em;
   border-top: 1px solid $border-color;
 
   @include breakpoint(max-width $small) {
@@ -341,7 +336,7 @@ body {
 
 .taxonomy__section {
   margin-bottom: 2em;
-  padding-bottom: 1em;
+  padding-bottom: 0.75em;
 
   &:not(:last-child) {
     border-bottom: solid 1px $border-color;
@@ -448,7 +443,7 @@ body {
 
 .comment {
   @include clearfix();
-  margin: 1em 0;
+  margin: 0.75em 0;
 
   &:not(:last-child) {
     border-bottom: 1px solid $border-color;
@@ -513,7 +508,7 @@ body {
   @include clearfix();
   float: left;
   margin-top: 2em;
-  padding-top: 1em;
+  padding-top: 0.75em;
   border-top: 1px solid $border-color;
 
   @include breakpoint($large) {

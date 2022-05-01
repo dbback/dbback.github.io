@@ -4,5 +4,48 @@
 
 @charset "utf-8";
 
+/* system typefaces */
+$serif      : "宋体", "Source Han Serif", Georgia, Times, serif;
+$sans-serif : "微软雅黑", "Source Han Sans", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$monospace  : "Noto Sans CJK", Monaco, Consolas, "Lucida Console", monospace;
+
+/* type scale */
+$type-size-1 : 1.953em;  // ~31.248px
+$type-size-2 : 1.563em;  // ~25.008px
+$type-size-3 : 1.25em;   // ~20px
+$type-size-4 : 1em;      // ~16px
+$type-size-5 : 0.75em;   // ~12px
+$type-size-6 : 0.6875em; // ~11px
+$type-size-7 : 0.625em;  // ~10px
+$type-size-8 : 0.5em;  	 // ~8px
+
+/* headline scale */
+$h-size-1 : 1.25em;   // ~20px
+$h-size-2 : 1em;      // ~16px
+$h-size-3 : 0.75em;   // ~12px
+$h-size-4 : 0.6875em; // ~11px
+$h-size-5 : 0.625em;  // ~10px
+$h-size-6 : 0.5em;    // ~8px
+
+/* solarized light syntax highlighting (base16) */
+$base00: #fafafa !default;
+$base01: #073642 !default;
+$base02: #586e75 !default;
+$base03: #657b83 !default;
+$base04: #839496 !default;
+$base05: #586e75 !default;
+$base06: #eee8d5 !default;
+$base07: #fdf6e3 !default;
+$base08: #dc322f !default;
+$base09: #cb4b16 !default;
+$base0a: #b58900 !default;
+$base0b: #859900 !default;
+$base0c: #2aa198 !default;
+$base0d: #268bd2 !default;
+$base0e: #6c71c4 !default;
+$base0f: #d33682 !default;
+
+
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials

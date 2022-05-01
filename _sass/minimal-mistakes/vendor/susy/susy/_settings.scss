@@ -112,8 +112,8 @@
 ///
 ///   - `0.5`:
 ///     a fluid gutter, half the size of a single-fraction column.
-///   - `1em`:
-///     a static gutter, `1em` wide.
+///   - `0.75em`:
+///     a static gutter, `0.75em` wide.
 ///
 ///   Mix static gutters with fluid columns, or vice versa,
 ///   and Susy will generate the required `calc()` to make it work.

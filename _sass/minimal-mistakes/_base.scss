@@ -64,7 +64,8 @@ small,
 }
 
 p {
-  margin-bottom: 1.3em;
+  margin-bottom: 1em;
+  font-size: $type-size-6;
 }
 
 u,
@@ -107,9 +108,9 @@ abbr[data-original-title] {
 /* blockquotes */
 
 blockquote {
-  margin: 2em 1em 2em 0;
-  padding-left: 1em;
-  padding-right: 1em;
+  margin: 2em 0.75em 2em 0;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
   font-style: italic;
   border-left: 0.25em solid $primary-color;
 
@@ -182,7 +183,7 @@ td > code {
 
 hr {
   display: block;
-  margin: 1em 0;
+  margin: 0.75em 0;
   border: 0;
   border-top: 1px solid $border-color;
 }
@@ -218,7 +219,7 @@ figure {
   img,
   iframe,
   .fluid-width-video-wrapper {
-    margin-bottom: 1em;
+    margin-bottom: 0.75em;
   }
 
   img {
