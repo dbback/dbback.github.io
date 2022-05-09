@@ -1,0 +1,14 @@
+firewall-cmd --state
+systemctl stop firewalld.service
+systemctl disable firewalld.service 
+1、新增开放端口
+firewall-cmd --zone=public --add-port=端口号/tcp --permanent
+2、移除开放端口
+
+firewall-cmd --zone=public --remove-port=端口号/tcp --permanent
+3、查看开放的端口
+
+firewall-cmd --zone=public --list-ports
+4、刷新防火墙
+
+firewall-cmd --reload
