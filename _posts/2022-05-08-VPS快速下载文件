@@ -1,0 +1,47 @@
+
+SimpleHTTPServer
+现在的几大主流 Linux 发行版都自带了 Python 环境，而 Python 实际本身就内置了一个名为简易的 HTTP 服务器，称为 SimpleHTTPServer。
+
+此工具的使用方法及其简单，切换到需要展示的目录，然后执行一句命令即可。
+
+比如想共享/home/share 目录，那么就依次执行
+
+cd /home/share
+python -m SimpleHTTPServer
+程序会直接开始运行，要退出的话直接按 Ctrl+C 即可。（如果指定端口，python -m SimpleHTTPServer 8080 ）
+
+如果是 Python3 环境下，此功能已经合并到了 http.server 模块中，命令变为：
+
+python -m http.server
+默认情况下会自动监听 8000 端口，使用 IP:8000 即可访问。如果要指定端口，则后面跟随需要的端口即可，比如监听 8888 端口：
+
+python -m SimpleHTTPServer 8888
+另外防火墙里注意还要放行对应端口，比如 CentOS7 里临时放行 8000 端口：
+
+firewall-cmd --zone=public --add-port=8000/tcp     
+
+#如果跟随--permanent 参数则为永久放行，否则重启失效
+
+CuteHttpFileServer
+
+官网：http://iscute.cn/chfs
+在官网下载对应版本后，直接把程序文件丢到需要共享的目录下，然后切换到对应目录，先给与执行权限：
+
+chmod +x chfs      #chfs 为默认程序名称
+如果直接共享程序所在目录的话，其他默认参数的话，那么直接一句命令即可运行，程序默认监听 80 端口，注意防火墙放行对应端口即可。
+
+如果要指定参数的话，可以参见程序官网说明，比如要指定端口的话，就跟随 port 参数：
+
+./chfs --port=8000     #指定 8000 端口
+要结束程序的话同样直接 Ctrl+C 即可。
+
+运行后 SSH 窗口会提示对应信息，还支持 webdav 访问，地址为 IP+端口/webdav：
+
+chfs 程序本身功能非常多，包括用户名访问，黑白名单，用户访问权限控制等一概齐全，具体参考官网即可。可修改的变量参数也有很多种，实际就是要用啥功能就在后面追加啥参数，非常的简单。
+
+
+
+
+
+
+
