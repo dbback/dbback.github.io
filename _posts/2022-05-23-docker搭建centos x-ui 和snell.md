@@ -1,5 +1,5 @@
 搭建指令：
--  docker run -d --privileged=true --restart unless-stopped --net=host pppv/xx
+  docker run -d  --privileged=true  --restart unless-stopped --net=host pppv/xx
 
 - port  9999(x-ui)     5555(snell)
 
