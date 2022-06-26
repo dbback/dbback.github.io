@@ -8,6 +8,7 @@
 '''
 adb tcpip 5555
 '''
+
   2. root :
 
 下载 adb wireless 通过、google应用商店
