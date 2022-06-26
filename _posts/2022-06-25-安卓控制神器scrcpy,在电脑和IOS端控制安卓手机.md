@@ -1,7 +1,7 @@
 
 - 安卓手机设置
 
-  1. 没有root :
+1. 没有root :
 
 连上电脑，安装adb套件
 
@@ -9,7 +9,7 @@
 adb tcpip 5555
 '''
 
-  2. root :
+2. root :
 
 下载 adb wireless 通过、google应用商店
 
