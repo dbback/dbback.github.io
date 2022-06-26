@@ -288,3 +288,4 @@ defaults:
       share: false
       related: false
       classes: wide
+      nav: "main"
