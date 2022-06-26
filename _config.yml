@@ -286,5 +286,5 @@ defaults:
       read_time: true
       comments: true
       share: true
-      related: true
-      classes: extrapretty
+      related: false
+      classes: wide
