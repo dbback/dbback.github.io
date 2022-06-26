@@ -288,6 +288,3 @@ defaults:
       share: false
       related: false
       classes: wide
-      sidebar:
-        nav: "docs"
-
