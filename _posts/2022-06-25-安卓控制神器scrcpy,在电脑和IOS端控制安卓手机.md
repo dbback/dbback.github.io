@@ -30,4 +30,4 @@ scrcpy  -S  --tcpip=192.168.15.172:5555 --display-buffer=20  # ip地址根据实
 
 scrcpy2://adb
 
-打开软件，输入ip，端口5555，可以进行连接。bitrate可以设置为 4M ，FPS默认可以
+打开软件，输入ip，端口5555，可以进行连接。bitrate可以设置为 4M ，FPS默认可以 
