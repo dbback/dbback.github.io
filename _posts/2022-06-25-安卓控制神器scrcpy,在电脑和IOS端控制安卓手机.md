@@ -15,7 +15,7 @@ adb tcpip 5555
 
 - PC端
 
-https://github.com/Genymobile/scrcpy/blob/master/README.zh-Hans.md
+下载 https://github.com/Genymobile/scrcpy/blob/master/README.zh-Hans.md
 
 直接运行如下命令
 
