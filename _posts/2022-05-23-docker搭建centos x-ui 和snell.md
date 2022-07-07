@@ -16,6 +16,10 @@ docker run -d  --privileged=true  --restart unless-stopped --net=host pppv/xx
 - 搬瓦工的需要 yum update ,docker 才能正常
 
 
+```python
+
 - docker commit
 - docker login
 - docker push
+
+```
