@@ -1,9 +1,11 @@
 搭建指令：
 
 
-'''
+```python
+
 docker run -d  --privileged=true  --restart unless-stopped --net=host pppv/xx
-'''
+
+```
 
 
 
