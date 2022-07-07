@@ -18,8 +18,8 @@ docker run -d  --privileged=true  --restart unless-stopped --net=host pppv/xx
 
 ```python
 
-- docker commit
-- docker login
-- docker push
+ docker commit
+ docker login
+ docker push
 
 ```
