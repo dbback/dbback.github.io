@@ -92,7 +92,7 @@ Windows Server 2008 SP1 R2 64位
 ```
 
 **相关资料**  
-萌咖大佬的一键 DD 脚本 [https://github.com/veip007/dd](https://www.wervps1.com/goto/wv4630z)
+一键 DD 脚本 [https://github.com/veip007/dd](https://www.wervps1.com/goto/wv4630z)
 
 
 
