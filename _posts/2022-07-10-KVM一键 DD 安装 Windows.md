@@ -4,12 +4,11 @@
 
 
 **教程开始**  
-首先进管理中心 实例默认系统选择安装 Ubuntu 系统
+安装 Ubuntu 系统
 
 [![][img-0]
 
-然后进入实例管理页面，依次点击 “远程登陆”-（一键登录）“登陆”，会弹出在线 webshell，输入  【sudo su】 切换为 root 登陆，并输出【cd】切换目录。  
-然后运行以下脚本开始安装必须的软件包
+root权限安装必须软件包
 
 ```
 #Debian/Ubuntu:
@@ -22,9 +21,7 @@ yum install -y xz openssl gawk file
 
 ```
 
-[![][img-1]
 
-执行完毕后再来运行一键安装脚本
 
 ### 一键脚本：
 
@@ -79,9 +76,6 @@ Windows 8.1 SP1 64位
 # Windows 10 ltsc 64位
 国内：http://d1.zizuer.cn/nn/System/DD/win10ltsc_x64.tar.gz
 国外：https://image.moeclub.org/GoogleDrive/1OVA3t-ZI2arkM4E4gKvofcBN9aoVdneh
-
-
-
 ```
 
 ```
