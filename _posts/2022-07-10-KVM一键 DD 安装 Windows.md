@@ -98,3 +98,119 @@ Windows Server 2008 SP1 R2 64位
 
 **相关资料**  
 萌咖大佬的一键 DD 脚本 [https://github.com/veip007/dd](https://www.wervps1.com/goto/wv4630z)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+一键 DD 脚本，支持性好，更智能更全面，支持国内外各种 VPS 重装，特别是对国内各种访问国外资源慢的 VPS 安装有奇效。
+
+* * *
+
+安装重装系统的前提组件:  
+Debian/Ubuntu:
+
+```
+apt-get install -y xz-utils openssl gawk file wget screen && screen -S os
+
+```
+
+RedHat/CentOS:
+
+```
+yum install -y xz openssl gawk file glibc-common wget screen && screen -S os
+
+```
+
+如果出现异常，请刷新 Mirrors 缓存或更换镜像源。  
+RedHat/CentOS:
+
+```
+yum makecache && yum update -y
+
+```
+
+Debian/Ubuntu:
+
+```
+apt update -y && apt dist-upgrade -y
+
+```
+
+使用:
+
+```
+wget --no-check-certificate -O AutoReinstall.sh https://git.io/betags && chmod a+x AutoReinstall.sh && bash AutoReinstall.sh
+
+```
+
+新版体验：
+
+```
+wget --no-check-certificate -O NewReinstall.sh https://git.io/newbetags && chmod a+x NewReinstall.sh && bash NewReinstall.sh
+
+```
+
+如为 CN 主机，可能出现报错或不能下载脚本的问题，可执行以下命令开始安装.
+
+```
+wget --no-check-certificate -O AutoReinstall.sh https://cdn.jsdelivr.net/gh/fcurrk/reinstall@master/AutoReinstall.sh && chmod a+x AutoReinstall.sh && bash AutoReinstall.sh
+
+```
+
+新版体验：
+
+```
+wget --no-check-certificate -O NewReinstall.sh https://cdn.jsdelivr.net/gh/fcurrk/reinstall@master/NewReinstall.sh && chmod a+x NewReinstall.sh && bash NewReinstall.sh
+
+```
+
+![][img-1]
+
+输入 Y 确认 DD 后主机自动获取 IP，N 则自行设置 IP 输入 N 后会自动检测出主机现用 IP，如果正确可以按 Y 确认使用，如不正确则按 N 自行按正确的输入。
+
+![][img-2]
+
+25 合 1 的系统一键 DD 选择界面，输入 99 则使用自定义镜像。 以上系统密码不为默认密码的均为网络收集，如有疑虑使用自己的自定义镜像。
+
+25 合一系统密码：  
+1、CentOS 7.7 (已关闭防火墙及 SELinux，默认密码 Pwd@CentOS)  
+2、CentOS 7 (默认密码 cxthhhhh.com)  
+3、CentOS 8 (默认密码 cxthhhhh.com)  
+4、CentOS 6 (默认密码 Minijer.com)  
+5、Debian 11 (默认密码 Minijer.com)  
+6、Debian 10 (默认密码 Minijer.com)  
+7、Debian 9 (默认密码 Minijer.com)  
+8、Debian 8 (默认密码 Minijer.com)  
+9、Ubuntu 20.04 (默认密码 Minijer.com)  
+10、Ubuntu 18.04 (默认密码 Minijer.com)  
+11、Ubuntu 16.04 (默认密码 Minijer.com)  
+12、Windows Server 2019 (默认密码 cxthhhhh.com)  
+13、Windows Server 2016 (默认密码 cxthhhhh.com)  
+14、Windows Server 2012 (默认密码 cxthhhhh.com)  
+15、Windows Server 2012 Lite (默认密码 nat.ee)  
+16、Windows Server 2008 (默认密码 cxthhhhh.com)  
+17、Windows Server 2008 Lite (默认密码 nat.ee)  
+18、Windows Server 2003 (默认密码 cxthhhhh.com)  
+19、Windows Server 2003 Lite (默认密码 WinSrv2003x86-Chinese)  
+20、Windows 10 LTSC Lite (默认密码 www.nat.ee)  
+21、Windows 7 x86 Lite (默认密码 Windows7x86-Chinese)  
+22、Windows 7 Ent Lite (默认密码 nat.ee)  
+23、Windows 7 Ent Lite (UEFI 支持甲骨文)(默认密码 nat.ee)  
+24、Windows Server 2008 Lite (UEFI 支持甲骨文)(默认密码 nat.ee)  
+25、Windows Server 2012 Lite (UEFI 支持甲骨文)(默认密码 nat.ee)  
+99、自定义镜像
+
+* * *
+
+
