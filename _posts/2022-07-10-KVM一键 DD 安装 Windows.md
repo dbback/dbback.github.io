@@ -1,8 +1,3 @@
-
-
-
-
-
 **教程开始**  
 安装 Ubuntu 系统
 
@@ -34,11 +29,9 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/dd/mast
 
 ```
 
-运行后会告诉你相关的网络信息（IP、网关、子网掩码），记录一下，或者不要关闭 ssh，并列出可以使用的镜像包。
-
 ### 指定镜像：
 
-自定义安装请使用：bash InstallNET.sh -dd ‘您的直连’ 或者如下。
+bash InstallNET.sh -dd ‘镜像链接’ 或者如下。
 
 **Win8.1  推荐 [腾讯云轻量](https://www.wervps1.com/we/tag/%e8%85%be%e8%ae%af%e4%ba%91%e8%bd%bb%e9%87%8f "[腾讯云轻量]相关的文章")香港、腾讯云轻量北京已测试  其他版本往下看  
 **
