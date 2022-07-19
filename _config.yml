@@ -68,7 +68,7 @@ algolia:
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : false # true (default), false
 google:
-  search_engine_id       : 2abf2845ae2006678
+  search_engine_id       : 663216d8901264118
   instant_search         : true
 # SEO Related
 google_site_verification : zoNe_YzMzop0pRz2Xl_ktMO0qQSzJv5D6uqGsKu6gzs
