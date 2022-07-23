@@ -1,3 +1,10 @@
+
+目前再用的命令：
+```
+wget -qO DebianNET.sh qiu.sh/dd && bash DebianNET.sh -dd "https://mirrors.yuntu.ca/teddysun/cn_windows2019.gz"
+```
+刷写腾讯云特别有效，需要在centos7下刷写
+
 **教程开始**  
 安装 Ubuntu 系统
 
